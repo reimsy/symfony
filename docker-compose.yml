@@ -1,0 +1,27 @@
+version: '3.0'
+services:
+    php:
+        build: ./docker/php
+        ports:
+            - '9000:9000'
+        volumes:
+            - ./project-symfony:/var/www/application
+            - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+    nginx:
+        build: ./docker/nginx
+        ports:
+            - '80:82'
+        volumes:
+            - ./docker/nginx/default.conf:/etc/nginx/sites-available/default.conf
+            - ./docker/nginx/default.conf:/etc/nginx/sitesgit commit -m "first commit"-enabled/default.conf
+
+            - ./docker/logs/nginx-access.log:/var/log/nginx/nginx-access.log
+            - ./docker/logs/nginx-error.log:/var/log/nginx/nginx-error.log
+        links:
+            - php
+    mysql:
+        image: mysql:5.7
+        environment:
+            MYSQL_ROOT_PASSWORD: symf0ny
+        ports:
+            - "3333:3306"

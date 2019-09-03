@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4ee415e-bae9-4ced-ad25-aada179058a4" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/project-symfony/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/php/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>7.2-fpm-alpine</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/docker/php/php.ini" />
+        <option value="$PROJECT_DIR$/docker-compose3.yml" />
+        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker/nginx/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/php/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/composer" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/project-symfony/vendor/symfony/polyfill-intl-icu" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker/logs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4ee415e-bae9-4ced-ad25-aada179058a4" name="Default" comment="" />
+      <created>1567428593372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567428593372</updated>
+      <workItem from="1567428594519" duration="1384000" />
+      <workItem from="1567437787987" duration="2254000" />
+      <workItem from="1567441245154" duration="2164000" />
+      <workItem from="1567502648605" duration="13401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19203000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1926" height="1058" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25987193" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5258064" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4489796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/logs/nginx-access.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/logs/nginx-error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/php/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/logs/nginx-access.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/logs/nginx-error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/php/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-symfony/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
