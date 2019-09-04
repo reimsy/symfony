@@ -13,7 +13,7 @@ services:
             - '80:82'
         volumes:
             - ./docker/nginx/default.conf:/etc/nginx/sites-available/default.conf
-            - ./docker/nginx/default.conf:/etc/nginx/sitesgit commit -m "first commit"-enabled/default.conf
+            - ./docker/nginx/default.conf:/etc/nginx/sites-enabled/default.conf
 
             - ./docker/logs/nginx-access.log:/var/log/nginx/nginx-access.log
             - ./docker/logs/nginx-error.log:/var/log/nginx/nginx-error.log
