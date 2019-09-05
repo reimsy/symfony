@@ -12,14 +12,22 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Twig\Environment;
 
 class HomeController extends AbstractController
 {
     /**
      * @Route("/")
      */
-    public function home()
+    public function home(Environment $twig)
     {
+//        $response = new Response();
+//        $template = $twig->render('base.html.twig');
+//
+//        $response->setContent($template);
+//        return $response;
+
+
         return $this->render('home/home.html.twig', [
             'title' => 'What is the symfony',
             'items' => [

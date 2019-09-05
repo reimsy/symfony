@@ -6,12 +6,14 @@ services:
             - '9000:9000'
         volumes:
             - ./project-symfony:/var/www/application
-            - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+#            - ./docker/php/php.ini:/usr/local/etc/php/php.ini
     nginx:
         build: ./docker/nginx
         ports:
             - '80:82'
         volumes:
+            - ./project-symfony:/var/www/application:cached
+
             - ./docker/nginx/default.conf:/etc/nginx/sites-available/default.conf
             - ./docker/nginx/default.conf:/etc/nginx/sites-enabled/default.conf
 
