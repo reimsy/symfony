@@ -10,9 +10,7 @@ namespace App\Controller;
 
 use App\Entity\Article;
 use Doctrine\ORM\EntityManagerInterface;
-use Michelf\MarkdownInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Cache\Adapter\AdapterInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Twig\Environment;
@@ -28,9 +26,9 @@ class ArticleAdminController extends AbstractController
         $random = rand(0, 1000);
 
         $article
-            ->setTitle('Title #'. $random .'. Some interesting page!')
+            ->setTitle('Title #' . $random . '. Some interesting page!')
             ->setContent(
-<<<EOF
+                <<<EOF
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
 when an unknown printer took a galley of type and scrambled it to make a type 
@@ -44,7 +42,7 @@ software like Aldus PageMaker including versions of Lorem Ipsum.
 Number: $random
 EOF
             )
-            ->setSlug('content-slug'.rand(0,1000))
+            ->setSlug('content-slug' . rand(0, 1000))
             ->setPublishedAt(new \DateTime(sprintf('-%d days', rand(1, 100))))
             ->setAuthor('Mike Ferengi')
             ->setHeartCount(rand(5, 100));
@@ -60,25 +58,11 @@ EOF
     }
 
     /**
-     * @Route("/news/show-some-new")
-     */
-    public function showNew(EntityManagerInterface $em)
-    {
-        $repositoryArticle = $em->getRepository(Article::class);
-        $article = $repositoryArticle->find(1);
-
-        return $this->render('article/show.html.twig', [
-            'article' => $article,
-            'title' => $article->getTitle()
-        ]);
-    }
-
-    /**
+     * Example dynamic data and Article repository
      * @Route("/news/{slug}")
      */
-    public function showSlug($slug, Environment $twigEnvironment, MarkdownInterface $markdown, AdapterInterface $cache, EntityManagerInterface $em)
+    public function showSlug($slug, Environment $twigEnvironment, EntityManagerInterface $em)
     {
-
         $comments = [
             'I ate a normal rock once. It did NOT taste like bacon!',
             'Woohoo! I\'m going on an all-asteroid diet!',
@@ -87,8 +71,6 @@ EOF
 
         $repositoryArticle = $em->getRepository(Article::class);
         $article = $repositoryArticle->findBy([], ['publishedAt' => 'DESC']);
-
-//        dump($article); die;
 
         $html = $twigEnvironment->render('article/show.html.twig', [
             'title' => ucwords(str_replace('-', ' ', $slug)),
@@ -99,5 +81,4 @@ EOF
 
         return new Response($html);
     }
-
 }

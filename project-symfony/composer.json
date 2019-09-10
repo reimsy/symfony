@@ -36,6 +36,7 @@
         "easycorp/easy-log-handler": "^1.0.7",
         "fzaninotto/faker": "^1.8",
         "symfony/debug-bundle": "*",
+        "symfony/debug-pack": "^1.0",
         "symfony/maker-bundle": "^1.0",
         "symfony/monolog-bundle": "^3.0",
         "symfony/profiler-pack": "*",

@@ -11,12 +11,10 @@ use App\Service\MarkdownHelper;
 
 class AppExtension extends AbstractExtension implements ServiceSubscriberInterface
 {
-//    private $markdownHelper;
     private $container;
 
     public function __construct(MarkdownHelper $markdown, ContainerInterface $container)
     {
-//        $this->markdownHelper = $markdown;
         $this->container = $container;
     }
 
@@ -32,11 +30,6 @@ class AppExtension extends AbstractExtension implements ServiceSubscriberInterfa
         return [
             new TwigFunction('function_name', [$this, 'doSomething']),
         ];
-    }
-
-    public function doSomething($value)
-    {
-        // ...
     }
 
     public function processMarkdown($value)
